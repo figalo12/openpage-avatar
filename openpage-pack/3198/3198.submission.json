@@ -41,7 +41,7 @@
     {
       "status": "ok",
       "label": "形式: GLB + MML",
-      "detail": "OpenPage には .mml の URL を登録します。GLB は MML の src から参照されます。"
+      "detail": "OpenPage には .mml の URL を登録します。GLB は MML の src から絶対 URL で参照されます。"
     },
     {
       "status": "ok",

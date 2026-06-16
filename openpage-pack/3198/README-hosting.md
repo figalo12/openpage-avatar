@@ -29,8 +29,11 @@ openpage-pack/3198/
    - 未所持なら空欄で問題ありません
 
 ## 現在の MML
-`3198.mml` は相対パスで `./3198.glb` を参照しています。
-GitHub Pages 上では `3198.mml` と `3198.glb` が同じフォルダにあれば動作します。
+`3198.mml` は絶対パスで次の GLB を参照しています。
+
+- `https://figalo12.github.io/openpage-avatar/openpage-pack/3198/3198.glb`
+
+OpenPage の previewer で相対パス解決の差異が出ても影響を受けにくい構成です。
 
 ## OpenPage 側で手動で行うもの
 - アイコン / PFP / サムネイル画像のアップロード
