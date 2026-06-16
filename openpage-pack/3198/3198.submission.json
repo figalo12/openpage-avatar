@@ -1,0 +1,82 @@
+{
+  "name": "3198",
+  "description": "TODO: OpenPage登録用の説明文を入力してください。",
+  "rarity": "Common",
+  "traits": [
+    {
+      "trait_type": "Style",
+      "value": "TODO"
+    },
+    {
+      "trait_type": "Rig",
+      "value": "MML-compatible humanoid"
+    }
+  ],
+  "mmlUrl": "https://figalo12.github.io/openpage-avatar/openpage-pack/3198/3198.mml",
+  "animationUrl": null,
+  "vrmUrl": null,
+  "thumbnailPath": "manual upload",
+  "blockchain": "Base",
+  "price": 0,
+  "startAt": null,
+  "endAt": null,
+  "maxSupply": 0,
+  "generatedAt": "2026-06-16T15:47:44.715Z",
+  "sourceFile": "3198.glb",
+  "tag": "m-character",
+  "srcPrefix": "https://figalo12.github.io/openpage-avatar/openpage-pack/3198",
+  "notes": [
+    "OpenPage には .mml URL を登録してください。GLB直リンクは不可です。",
+    "Animation URL は未設定です。必要になったら idle.glb などを追加して入力してください。",
+    "VRM URL は任意です。未所持なら null のままで問題ありません。",
+    "画像類はこの JSON では管理せず、OpenPage 側で手動アップロードしてください。",
+    "Community Page / Community Vault / Create Units を事前に用意してください。"
+  ],
+  "currentChecks": [
+    {
+      "status": "ok",
+      "label": "身長 1〜2m: 1.80m",
+      "detail": ""
+    },
+    {
+      "status": "ok",
+      "label": "形式: GLB + MML",
+      "detail": "OpenPage には .mml の URL を登録します。GLB は MML の src から参照されます。"
+    },
+    {
+      "status": "ok",
+      "label": "リグ: あり",
+      "detail": "MML 互換の humanoid リグです。"
+    },
+    {
+      "status": "ok",
+      "label": "ポリゴン: 47,953 tris",
+      "detail": ""
+    },
+    {
+      "status": "ok",
+      "label": "テクスチャ: 4枚",
+      "detail": "すべて 1024px 以下"
+    },
+    {
+      "status": "ok",
+      "label": "マテリアル: 1個",
+      "detail": ""
+    },
+    {
+      "status": "ok",
+      "label": "透明表現 (alpha/opacity)",
+      "detail": "なし"
+    },
+    {
+      "status": "info",
+      "label": "アニメーション: なし",
+      "detail": "必要なら後から Animation URL 用の GLB を追加してください。"
+    },
+    {
+      "status": "ok",
+      "label": "GLB容量: 5.5MB",
+      "detail": ""
+    }
+  ]
+}
