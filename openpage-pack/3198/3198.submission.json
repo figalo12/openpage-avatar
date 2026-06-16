@@ -12,24 +12,23 @@
       "value": "MML-compatible humanoid"
     }
   ],
-  "mmlUrl": "https://figalo12.github.io/openpage-avatar/openpage-pack/3198/3198.mml",
-  "animationUrl": null,
+  "mmlUrl": "https://example.com/openpage-pack/3198/3198.mml",
+  "animationUrl": "https://example.com/openpage-pack/3198/animation.glb",
   "vrmUrl": null,
-  "thumbnailPath": "manual upload",
+  "thumbnailPath": "./thumbnail.png",
   "blockchain": "Base",
   "price": 0,
   "startAt": null,
   "endAt": null,
   "maxSupply": 0,
-  "generatedAt": "2026-06-16T15:47:44.715Z",
+  "generatedAt": "2026-06-16T17:03:49.204Z",
   "sourceFile": "3198.glb",
   "tag": "m-character",
-  "srcPrefix": "https://figalo12.github.io/openpage-avatar/openpage-pack/3198",
+  "srcPrefix": "https://example.com/openpage-pack/3198",
   "notes": [
-    "OpenPage には .mml URL を登録してください。GLB直リンクは不可です。",
-    "Animation URL は未設定です。必要になったら idle.glb などを追加して入力してください。",
+    "MML URL は .mml を返す安定URLに差し替えてください。",
+    "Animation URL は OpenPage の別項目に入力します。",
     "VRM URL は任意です。未所持なら null のままで問題ありません。",
-    "画像類はこの JSON では管理せず、OpenPage 側で手動アップロードしてください。",
     "Community Page / Community Vault / Create Units を事前に用意してください。"
   ],
   "currentChecks": [
@@ -41,12 +40,12 @@
     {
       "status": "ok",
       "label": "形式: GLB + MML",
-      "detail": "OpenPage には .mml の URL を登録します。GLB は MML の src から絶対 URL で参照されます。"
+      "detail": "OpenPageには.mmlのURLを登録 (GLB直リンク不可)。GLB/MMLとも安定したURLでホストし、src-prefixでGLBを絶対URL化してください"
     },
     {
-      "status": "ok",
+      "status": "warn",
       "label": "リグ: あり",
-      "detail": "MML 互換の humanoid リグです。"
+      "detail": "MML標準ボーン名が不足: pelvis, spine_01, head, hand_l, hand_r, foot_l, foot_r — プラットフォームのアニメーションが正しく再生されない可能性があります"
     },
     {
       "status": "ok",
@@ -56,7 +55,7 @@
     {
       "status": "ok",
       "label": "テクスチャ: 4枚",
-      "detail": "すべて 1024px 以下"
+      "detail": "すべて1024px以下"
     },
     {
       "status": "ok",
@@ -71,7 +70,7 @@
     {
       "status": "info",
       "label": "アニメーション: なし",
-      "detail": "必要なら後から Animation URL 用の GLB を追加してください。"
+      "detail": "Idleアニメーション(1〜5秒・30FPS以上・ループ)の追加を推奨。MMLではanim属性とanim-loopで制御できます"
     },
     {
       "status": "ok",

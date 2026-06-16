@@ -1,51 +1,34 @@
 # OpenPage Hosting Guide
 
-このパックは `figalo12/openpage-avatar` の GitHub Pages 配信を前提にしています。
+このパックは OpenPage の MML互換アバター登録用です。
 
-## 公開先
-- Repository: `figalo12/openpage-avatar`
-- GitHub Pages base URL: `https://figalo12.github.io/openpage-avatar/`
-
-## このフォルダの配置先
-この `3198` フォルダは、リポジトリ内で次の場所に置きます。
-
-```text
-openpage-pack/3198/
-```
-
-## OpenPage 登録に使う URL
-1. MML URL
-   - `https://figalo12.github.io/openpage-avatar/openpage-pack/3198/3198.mml`
-   - OpenPage にはこの `.mml` URL を登録します
-   - `.glb` 直リンクは登録しません
-2. GLB URL
-   - `https://figalo12.github.io/openpage-avatar/openpage-pack/3198/3198.glb`
-   - これは MML の `src` から参照されます
-3. Animation URL
-   - 現時点では未設定です
-   - 必要なら `idle.glb` などを同じフォルダに置いて追加してください
-4. VRM URL
-   - 任意です
-   - 未所持なら空欄で問題ありません
-
-## 現在の MML
-`3198.mml` は絶対パスで次の GLB を参照しています。
-
-- `https://figalo12.github.io/openpage-avatar/openpage-pack/3198/3198.glb`
-
-OpenPage の previewer で相対パス解決の差異が出ても影響を受けにくい構成です。
-
-## OpenPage 側で手動で行うもの
-- アイコン / PFP / サムネイル画像のアップロード
-- 名前と説明の入力
-- 価格、供給数、公開期間などの設定
-
-## 事前条件
+## 前提
 - Community Page
 - Community Vault
 - Create Units
 
-## 公開確認
-登録前に、ログアウト状態のブラウザで次の URL が 200 で開くことを確認してください。
-- `https://figalo12.github.io/openpage-avatar/openpage-pack/3198/3198.mml`
-- `https://figalo12.github.io/openpage-avatar/openpage-pack/3198/3198.glb`
+## 公開するファイル
+- 3198.mml
+- 3198.glb
+- animation.glb または既存のアニメーションGLB
+- VRM がある場合のみ .vrm
+
+## 登録時のURL項目
+1. MML URL
+   - https://example.com/openpage-pack/3198/3198.mml
+   - .mml を返す安定URLにしてください
+   - GLB直リンクは不可です
+2. Animation URL
+   - https://example.com/openpage-pack/3198/animation.glb
+   - OpenPage の 3D Avatar URLs の Animation URL 欄に入力します
+3. VRM URL
+   - 任意です。未所持なら空欄で問題ありません
+
+## MML内の src
+- MML の src は https://example.com/openpage-pack/3198/3198.glb を想定しています
+- 実ホスティング先に合わせて差し替えてください
+
+## 提出時の注意
+- サムネイルは 2000x2000px 以上の正方形 JPG/PNG
+- 名前・説明・サムネイルはオリジナルのみ
+- URL はログアウト状態でも参照できることを確認してください
