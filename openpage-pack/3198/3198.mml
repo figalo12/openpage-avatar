@@ -7,7 +7,7 @@
 -->
 <m-character
   id="3198"
-  src="https://figalo12.github.io/openpage-avatar/openpage-pack/3198/3198.glb"
+  src="https://example.com/openpage-pack/3198/3198.glb"
   anim="https://example.com/openpage-pack/3198/animation.glb"
   x="0" y="0" z="0"
 ></m-character>
