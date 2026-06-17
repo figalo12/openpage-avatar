@@ -21,7 +21,7 @@
   "startAt": null,
   "endAt": null,
   "maxSupply": 0,
-  "generatedAt": "2026-06-17T10:24:01.048Z",
+  "generatedAt": "2026-06-17T10:29:20.636Z",
   "sourceFile": "3198.glb",
   "tag": "m-character",
   "srcPrefix": "https://example.com/openpage-pack/3198",
@@ -45,7 +45,7 @@
     {
       "status": "ok",
       "label": "リグ: あり",
-      "detail": "既存リグ互換化 / 330 bones / 19 skinned meshes"
+      "detail": "既存リグ / 330 bones / 19 skinned meshes"
     },
     {
       "status": "ok",
