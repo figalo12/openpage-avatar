@@ -13,7 +13,7 @@
     }
   ],
   "mmlUrl": "https://example.com/openpage-pack/3198/3198.mml",
-  "animationUrl": "https://example.com/openpage-pack/3198/animation.glb",
+  "animationUrl": null,
   "vrmUrl": null,
   "thumbnailPath": "./thumbnail.png",
   "blockchain": "Base",
@@ -21,7 +21,7 @@
   "startAt": null,
   "endAt": null,
   "maxSupply": 0,
-  "generatedAt": "2026-06-17T05:51:12.479Z",
+  "generatedAt": "2026-06-17T06:53:03.270Z",
   "sourceFile": "3198.glb",
   "tag": "m-character",
   "srcPrefix": "https://example.com/openpage-pack/3198",

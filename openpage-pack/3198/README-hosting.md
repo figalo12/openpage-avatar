@@ -17,7 +17,7 @@
    - https://example.com/openpage-pack/3198/3198.mml
    - .mml 繧定ｿ斐☆螳牙ｮ啅RL縺ｫ縺励※縺上□縺輔＞
    - GLB逶ｴ繝ｪ繝ｳ繧ｯ縺ｯ荳榊庄縺ｧ縺・2. Animation URL
-   - https://example.com/openpage-pack/3198/animation.glb
+   - null
    - OpenPage 縺ｮ 3D Avatar URLs 縺ｮ Animation URL 谺・↓蜈･蜉帙＠縺ｾ縺・3. VRM URL
    - 莉ｻ諢上〒縺吶よ悴謇謖√↑繧臥ｩｺ谺・〒蝠城｡後≠繧翫∪縺帙ｓ
 
