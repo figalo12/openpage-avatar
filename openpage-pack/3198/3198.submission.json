@@ -21,7 +21,7 @@
   "startAt": null,
   "endAt": null,
   "maxSupply": 0,
-  "generatedAt": "2026-06-16T17:13:59.002Z",
+  "generatedAt": "2026-06-17T04:13:24.547Z",
   "sourceFile": "3198.glb",
   "tag": "m-character",
   "srcPrefix": "https://example.com/openpage-pack/3198",
@@ -40,12 +40,12 @@
     {
       "status": "ok",
       "label": "形式: GLB + MML",
-      "detail": "OpenPageには.mmlのURLを登録 (GLB直リンク不可)。GLB/MMLとも安定したURLでホストし、src-prefixでGLBを絶対URL化してください"
+      "detail": "OpenPage には .mml の URL を登録します。GLB 直リンクは不可です。src URL プレフィックスで GLB を絶対URL化してください。"
     },
     {
-      "status": "warn",
+      "status": "ok",
       "label": "リグ: あり",
-      "detail": "MML標準ボーン名が不足: spine_01 — プラットフォームのアニメーションが正しく再生されない可能性があります"
+      "detail": "既存リグ互換化 / 338 bones / 19 skinned meshes"
     },
     {
       "status": "ok",
@@ -74,7 +74,7 @@
     },
     {
       "status": "ok",
-      "label": "GLB容量: 5.5MB",
+      "label": "GLBサイズ: 5.5MB",
       "detail": ""
     }
   ]
